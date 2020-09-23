@@ -21,7 +21,7 @@ data class Users (
     @Json(name = "company")
     val company: Company
 
-)
+){
 data class Address(
 
     @Json(name = "street")
@@ -44,3 +44,4 @@ data class Company(
     @Json(name = "bs")
     val bs: String
 )
+}
